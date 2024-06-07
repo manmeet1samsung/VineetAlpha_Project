@@ -15,3 +15,8 @@ vnet = var.manmeet-vnet
 depends_on = [ module.rg ]
   
 }
+
+module "subnet" {
+  source = "../../module/azure_snet"
+  snet = var.manchal-snet
+}
