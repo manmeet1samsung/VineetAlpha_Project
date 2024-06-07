@@ -9,9 +9,9 @@ rg = var.vineet-rg
 }
 
 
-module "vnet" {
+module "network" {
     source = "../../module/azure_vnet"
-vnet = var.vineet-vnet
+vnet = var.manmeet-vnet
 depends_on = [ module.rg ]
   
 }
