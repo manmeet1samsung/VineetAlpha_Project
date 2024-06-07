@@ -25,3 +25,14 @@ name_rg = "vineet1-rg"
 
     }
 }
+    manchal-snet = {
+        snet = {
+            name_snet = "manchal1-snet"
+            name_rg = "vineet1-rg"
+            name_vnet = "manmeet1-vnet"
+            address_prefixes = ["10.1.1.0/24"]
+
+        }
+    }
+
+
